@@ -1,0 +1,6 @@
+.container
+  %h1.text-2xl All your posts
+  = turbo_frame_tag 'posts' do
+    = render @posts
+  .mt-4
+    = link_to 'New Post', new_post_path, "data-turbo-stream": ""
