@@ -3,4 +3,8 @@
   = f.text_field :title
   = f.label :content
   = f.text_area :content
+  = f.label :tag
+  = f.fields_for :tags do |tag_form|
+    = tag_form.label :name
+    = tag_form.text_field :name
   = f.submit 'Save'

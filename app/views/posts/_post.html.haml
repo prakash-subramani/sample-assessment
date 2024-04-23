@@ -4,3 +4,6 @@
     = post.created_at
   .mt-2
     = post.content
+  .mt-2
+    = post.tags.each do |tag|
+      = tag.name
