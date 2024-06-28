@@ -12,4 +12,4 @@ Make the tag model polymorphic in case we want to add tags to other models later
 Lastly, create a service that can post to a Slack channel. It is not important that it works, but that the design is right. You can mock the response from Slack as if the client was making the HTTP request. 
 
 # Bugs
-You probably noticed the "New post" link doesn't work. Please, fix it. Also, there might be issues with how we are rendering a new post. Can you identify what is it?
+You probably noticed the "New post" link doesn't work. Please, fix it. Also, there might be issues with how we are rendering a new post. Can you identify what is it?.
